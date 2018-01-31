@@ -1,0 +1,31 @@
+#map.container-fluid
+	.row
+		.col-md-2
+			.slctDate
+				h4 篩選出發日期
+				input.clearfix#thedate(
+					type="text" 
+					placeholder="選擇日期範圍"
+				)
+				input(
+					type="text"
+					id="start1"
+					placeholder="起始日期："
+				)
+				input(
+					type="text"
+					id="end1"
+					placeholder="結束日期："
+				)
+		.col-md-8.vector-map
+			input(
+				type="text"
+				id="start"
+				placeholder="起始日期："
+			)
+			input(
+				type="text"
+				id="end"
+				placeholder="結束日期："
+			)
+		.col-md-2

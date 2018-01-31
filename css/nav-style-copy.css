@@ -1,0 +1,27 @@
+#hot2go
+	{
+	   position: absolute; 
+		top: 9%; 
+		left: 18%;
+		bottom: 10%; 
+		width: 60%; 
+		height: 30%; 
+		background-color:white; 
+		z-index:999; 
+		visibility: hidden;
+		/*display: none;*/
+		border-radius: 10px;
+	} 
+#hot2go h4{
+	font-size: 18px;
+	font-weight: 600;
+	margin-left: 15px;
+}
+#hot2go .j_hot-place{
+	float: left;
+	width: 30%;
+	margin-left: 5px;
+}
+.j_hot-place .j_goto{
+	margin-left: 15px;
+}

@@ -1,0 +1,336 @@
+body {
+  background-color: #888; }
+
+.clearfix {
+  display: block;
+  clear: both; }
+
+#where2go {
+  position: absolute;
+  top: 5%;
+  right: 20%;
+  width: 60%;
+  height: 20%;
+  z-index: 999;
+  visibility: hidden;
+  border-radius: 10px; }
+
+.where input {
+  width: 151px; }
+
+#where2go h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 15px; }
+
+.hot-place {
+  width: 30%;
+  margin-right: 5px; }
+
+.goto {
+  margin-right: 15px; }
+
+#what2go {
+  position: absolute;
+  top: 5%;
+  right: 20%;
+  width: 60%;
+  height: 20%;
+  z-index: 999;
+  visibility: hidden;
+  border-radius: 10px; }
+
+#what2go h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 15px; }
+
+.what input {
+  width: 151px; }
+
+.like-place {
+  width: 30%;
+  margin-right: 5px; }
+
+#when2go {
+  position: absolute;
+  top: 5%;
+  right: 20%;
+  width: 60%;
+  height: 20%;
+  z-index: 999;
+  visibility: hidden;
+  border-radius: 10px; }
+
+#when2go h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 15px; }
+
+.when input {
+  width: 151px; }
+
+.what-time {
+  width: 30%;
+  margin-right: 5px; }
+
+#grooup2go {
+  position: absolute;
+  top: 5%;
+  right: 20%;
+  width: 60%;
+  height: 20%;
+  z-index: 999;
+  visibility: hidden;
+  border-radius: 10px; }
+
+#grooup2go h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 15px; }
+
+.group input {
+  width: 151px; }
+
+.along-grouup {
+  width: 30%;
+  margin-right: 5px; }
+
+#how-many2go {
+  position: absolute;
+  top: 5%;
+  right: 20%;
+  width: 60%;
+  height: 20%;
+  z-index: 999;
+  visibility: hidden;
+  border-radius: 10px; }
+
+#how-many2go h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 15px; }
+
+.people input {
+  width: 151px; }
+
+.how-many {
+  width: 30%;
+  margin-right: 5px; }
+
+#flight2go {
+  position: absolute;
+  top: 5%;
+  right: 20%;
+  width: 60%;
+  height: 20%;
+  z-index: 999;
+  visibility: hidden;
+  border-radius: 10px; }
+
+#flight2go h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 15px; }
+
+.flight input {
+  width: 151px; }
+
+.which-flight {
+  width: 30%;
+  margin-right: 5px; }
+
+#agent2go {
+  position: absolute;
+  top: 5%;
+  right: 20%;
+  width: 60%;
+  height: 20%;
+  z-index: 999;
+  visibility: hidden;
+  border-radius: 10px; }
+
+#agent2go h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 15px; }
+
+.agent input {
+  width: 151px; }
+
+.which-agent {
+  width: 30%;
+  margin-right: 5px; }
+
+#hotel2go {
+  position: absolute;
+  top: 5%;
+  right: 20%;
+  width: 60%;
+  height: 20%;
+  z-index: 999;
+  visibility: hidden;
+  border-radius: 10px; }
+
+#hotel2go h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 15px; }
+
+.hotel input {
+  width: 151px; }
+
+.which-hotel {
+  width: 30%;
+  margin-right: 5px; }
+
+#navbar {
+  position: relative;
+  width: calc(100% - 4px);
+  height: 180px;
+  margin: 2px;
+  border: 1px solid #f00; }
+  #navbar .col-md-3 {
+    height: 176px;
+    border: 1px solid #00f; }
+    #navbar .col-md-3 .myphoto {
+      width: 100%;
+      height: 170px;
+      background-image: url("../images/me1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center; }
+  #navbar .col-md-2 {
+    height: 176px;
+    border: 1px solid #0f0; }
+
+.menu {
+  width: 100%; }
+
+#map {
+  width: calc(100% - 4px);
+  height: 450px;
+  margin: 2px;
+  border: 1px solid #f00; }
+  #map .col-md-2 {
+    height: 444px;
+    border: 1px solid #888; }
+  #map .col-md-8 {
+    height: 444px;
+    border: 1px solid #5f5; }
+  #map .vector-map {
+    width: 100%;
+    height: 444px;
+    background-image: url("../images/world2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+
+#trip {
+  width: calc(100% - 4px);
+  height: 180px;
+  margin: 2px;
+  border: 1px solid #f00; }
+  #trip .col-md-3 {
+    margin: 0;
+    padding: 0;
+    height: 176px;
+    border: 1px solid #00f; }
+
+#header2 {
+  position: relative;
+  margin-bottom: 5px; }
+  #header2 .fadeSlider .img {
+    width: 100%;
+    height: 176px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    #header2 .fadeSlider .img:nth-of-type(1) {
+      background-image: url("images/beef1.jpg"); }
+    #header2 .fadeSlider .img:nth-of-type(2) {
+      background-image: url("images/beef2.jpg"); }
+    #header2 .fadeSlider .img:nth-of-type(3) {
+      background-image: url("images/beef3.jpg"); }
+
+#header3 {
+  position: relative;
+  margin-bottom: 5px; }
+  #header3 .slick .img1 {
+    width: 100%;
+    height: 176px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    #header3 .slick .img1:nth-of-type(1) {
+      background-image: url("../images/1.jpg"); }
+    #header3 .slick .img1:nth-of-type(2) {
+      background-image: url("../images/2.jpg"); }
+    #header3 .slick .img1:nth-of-type(3) {
+      background-image: url("../images/3.jpg"); }
+    #header3 .slick .img1:nth-of-type(4) {
+      background-image: url("../images/4.jpg"); }
+    #header3 .slick .img1:nth-of-type(5) {
+      background-image: url("../images/5.jpg"); }
+
+.slick1 {
+  position: relative;
+  margin-bottom: 5px; }
+  .slick1 .img2 {
+    width: 100%;
+    height: 176px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    .slick1 .img2:nth-of-type(1) {
+      background-image: url("../images/1.jpg"); }
+    .slick1 .img2:nth-of-type(2) {
+      background-image: url("../images/2.jpg"); }
+    .slick1 .img2:nth-of-type(3) {
+      background-image: url("../images/3.jpg"); }
+    .slick1 .img2:nth-of-type(4) {
+      background-image: url("../images/4.jpg"); }
+    .slick1 .img2:nth-of-type(5) {
+      background-image: url("../images/5.jpg"); }
+
+/*#thedate
+	width: 95%
+	height: 42px
+	border: 1px solid #d8d8d8
+	border-radius: 4px
+	padding-left: 10px
+	font-family: "microsoft jhenghei"
+	color: rgb(97, 97, 97)
+	font-size: 14px;
+	background-color: #fafafa */
+.sideMenu-group {
+  position: relative;
+  top: 0;
+  left: 0;
+  float: left;
+  width: 25%; }
+
+.slctDate,
+.allMerchant,
+.slctRange,
+.timeStamp,
+.guideLan {
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  background-color: #fff;
+  position: relative;
+  left: 14.5%;
+  padding: 10px;
+  margin-bottom: 10px; }
+
+.pick-title {
+  display: none; }
+
+.slctDate {
+  height: 100px;
+  top: -7.5%; }
+
+.allMerchant {
+  padding-left: 0;
+  padding-right: 0; }
